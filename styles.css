@@ -1,0 +1,52 @@
+#dragCircle {
+    position: absolute;
+    z-index: 9;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 30%);
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+
+}
+
+#dragstartzone {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    z-index: 10;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+
+#mapzone {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    z-index: 10;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+#dragCircle:hover {
+    background-color: lightcoral;
+}
+
+#robotModel {
+    position: absolute;
+    z-index: 15;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgba(25, 207, 98, 0.592);
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
